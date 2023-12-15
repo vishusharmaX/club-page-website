@@ -37,7 +37,8 @@
 body {
   /* background: radial-gradient(circle, #0a0c0f, #00234b, #003489, #5238c1, #a912eb) !important;
    */
-  background: linear-gradient(to left, #28184e, #382467, #493181, #5b3f9c, #6d4db8) !important;
+   /* background: linear-gradient(to right bottom, #28184e, #382467, #493181, #5b3f9c, #6d4db8) !important; */
+  background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551,#2c2039) !important;
 }
 
 nav {
