@@ -12,30 +12,23 @@ const Contact = () => {
         setIsChecked(!isChecked);
     };
 
-    return ( <
-        div class = "custom-background"
+    return ( 
+    <>
+        <div class = "custom-background"
         style = {
             {
                 fontFamily: 'Cascadia Code, monospace'
             }
         } >
-        <
-        Head >
-        <
-        meta charset = "utf-8" / >
-        <
-        meta name = "viewport"
-        content = "width=device-width, initial-scale=1.0" / >
-        <
-        title > CWC Club | Events < /title> <
-        /Head> <
-        link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        <Head >
+        <meta charset = "utf-8" / >
+        <meta name = "viewport"content = "width=device-width, initial-scale=1.0" / >
+        <title> CWC Club | Events </title> 
+        </Head>
+         <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
         rel = "stylesheet" / >
-        <
-        link href = "https://fonts.cdnfonts.com/css/cascadia-code"
-        rel = "stylesheet" / >
-        <
-        style dangerouslySetInnerHTML = {
+        <link href = "https://fonts.cdnfonts.com/css/cascadia-code"rel = "stylesheet" / >
+        <style dangerouslySetInnerHTML = {
             {
                 __html: `
         body {
@@ -45,15 +38,12 @@ const Contact = () => {
         }`
             }
         }
-        /> <
-        ContactMap / >
-        <
-        Script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        /> <ContactMap / >
+        <Script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity = "sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin = "anonymous" /
-        >
-        <
-        /div>
+        crossorigin = "anonymous" />
+        </div>
+    </>
     );
 };
 

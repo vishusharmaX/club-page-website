@@ -4,6 +4,11 @@ import Navbar from '../app/components/navbar';
 import CyberSecurityClub from '../app/components/homeContent';
 import Footer from '../app/components/footer';
 import Head from 'next/head';
+import Typewriter from 'typewriter-effect';
+import {
+    motion,
+    AnimatePresence
+} from 'framer-motion';
 
 const Home_Page = () => {
     const [windowWidth, setWindowWidth] = useState(0);
@@ -38,6 +43,8 @@ const Home_Page = () => {
             document.body.removeChild(bootstrapScript);
         };
     }, []);
+
+
     return (
         <>
             <Head>
@@ -73,8 +80,22 @@ const Home_Page = () => {
                             <img src="/CSC_Logo.png" alt="Logo" style={{ width: '120%', height: '120%', objectFit: 'contain' }} />
                         </div>
                     </div>
-                    <div style={{ flex: 5, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginTop: '70px',marginRight:'7%' }}>
-                        <div style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Cyber Warrior Club</div>
+                    <div 
+                    style={{ flex: 5, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginTop: '70px',marginRight:'7%' }}>
+                        <div 
+                        style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>
+  
+                             < Typewriter
+                             options = {
+                                 {
+                                     strings: ['Cyber Warrior Club!'],
+                                     autoStart: true,
+                                     loop: true, 
+                                     wrapperClassName: 'typewriter-wrapper',
+                                 }
+                             }
+                             />
+                          </div>
                         <div style={{ fontSize: '1.2rem', lineHeight: '1.5', maxWidth: '800px', marginBottom: '2rem', marginRight: '0.5rem' }}>
                             Join the Cyber Warrior Club of VIT Bhopal as we explore new cutting edge technology.
                         </div>
