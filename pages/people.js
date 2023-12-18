@@ -91,7 +91,7 @@ const People = () => {
         /> */}
         <br />
 
-        <TextComponent title="Core Team(2021)" />
+        {/* <TextComponent title="Core Team(2021)" /> */}
         <br />
         {/* <ImageComponent
           imageSrc1="/images/akhilesh.jpg"
@@ -113,7 +113,7 @@ const People = () => {
         <br />
 
 
-        <TextComponent title="Core Team(2022)" />
+        {/* <TextComponent title="Core Team(2022)" /> */}
         <br />
         {/* <ImageComponent
           imageSrc1="/images/gunj.jpg"

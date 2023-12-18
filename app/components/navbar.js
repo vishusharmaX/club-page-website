@@ -50,10 +50,10 @@ const Navbar = () => {
                 <div class="container">
                     <div className={styles.navLogo}>
                         <img
-                            src="CSC_Logo_Light_name.svg"
+                            src="/CWC-logo.png"
                             alt="Logo"
-                            width="100"
-                            height="100"
+                            width="80"
+                            height="80"
                             className={`d-inline-block align-text-top ${styles.glogo}`}
                         />
                     </div>

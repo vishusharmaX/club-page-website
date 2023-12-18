@@ -77,7 +77,7 @@ const Home_Page = () => {
                 <div style={{ display: 'flex', fontFamily: 'Cascadia Code, monospace', color: 'white', textAlign: 'center', height: '100vh' }}>
                     <div style={{ flex: 4.5, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column',marginLeft: '1%' }}>
                         <div style={logoStyles}>
-                            <img src="/CSC_Logo.png" alt="Logo" style={{ width: '120%', height: '120%', objectFit: 'contain' }} />
+                            <img src="/CWC-Logo.png" alt="Logo" style={{ width: '120%', height: '120%', objectFit: 'contain', color: 'black'}} />
                         </div>
                     </div>
                     <div 
@@ -88,7 +88,7 @@ const Home_Page = () => {
                              < Typewriter
                              options = {
                                  {
-                                     strings: ['Cyber Warrior Club!'],
+                                     strings: ['Cyber Warriors Club!'],
                                      autoStart: true,
                                      loop: true, 
                                      wrapperClassName: 'typewriter-wrapper',
@@ -105,10 +105,10 @@ const Home_Page = () => {
                 <div style={{ marginTop: '-38vh', marginBottom: '20vh' }}>
                     <div style={{ fontFamily: 'Cascadia Code, monospace', color: 'white', textAlign: 'center', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                         <div style={logoStyles}>
-                            <img src="/CSC_Logo.png" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', marginTop: '10rem', marginBottom: '10rem' }} />
+                            <img src="/CWC-Logo.png" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', marginTop: '10rem', marginBottom: '10rem' }} />
                         </div>
 
-                        <div style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Cyber  Club</div>
+                        <div style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Cyber Warriors Club</div>
                     </div>
                 </div>
             )}
