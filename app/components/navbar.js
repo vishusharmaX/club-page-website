@@ -59,7 +59,7 @@ const Navbar = () => {
                         />
                     </div>
 
-                    <div class="buttonchnge">
+                    <div className="buttonchnge">
                          <button
                         className="navbar-toggler"
                         type="button"
