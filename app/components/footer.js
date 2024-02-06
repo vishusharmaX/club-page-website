@@ -20,6 +20,7 @@ const Footer = () => {
     backgroundColor: "#2C2039",
     color: "white",
     minHeight: "210px",
+    padding: "40px 0",
     position: "relative",
   };
 
