@@ -51,7 +51,7 @@ const Footer = () => {
     <footer style={footerStyle}>
       <Container>
         <Row>
-          <Col>
+          <Col className={styles.navlogoC1f}>
             <div className={styles.navLogof}>
               <motion.img
                 src="/CWC-logo.png"
@@ -71,7 +71,7 @@ const Footer = () => {
               </div>
             </div>
           </Col>
-          <Col>
+          <Col className={styles.navlogoC2f}>
             <div style={contactStyle}>
               <h3
                 style={{

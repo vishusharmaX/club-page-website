@@ -367,3 +367,16 @@
   flex-direction: column;
   align-items: center;
 }
+
+.navlogoC1f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlogoC2f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
