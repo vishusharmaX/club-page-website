@@ -95,7 +95,7 @@ const Home_Page = () => {
           >
             <div style={logoStyles}>
               <img
-                src ="/CWC-logo.png"
+                src="/CWC-logo.png"
                 alt="Logo"
                 style={{
                   width: "120%",
@@ -163,7 +163,7 @@ const Home_Page = () => {
           >
             <div style={logoStyles}>
               <img
-                src ="/CWC-logo.png"
+                src="/CWC-logo.png"
                 alt="Logo"
                 style={{
                   width: "100%",
