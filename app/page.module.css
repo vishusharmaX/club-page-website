@@ -380,3 +380,23 @@
   flex-direction: column;
   align-items: center;
 }
+
+.abscenter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mnlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 0 !important;
+  height: 100%;
+}
+
+.credit {
+  text-decoration: none;
+  color: inherit;
+}

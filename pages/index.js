@@ -25,7 +25,6 @@ const Home_Page = () => {
     marginBottom: "1rem",
     width: "300px",
     maxWidth: "100%",
-    transform: "rotate(45deg)",
     transition: "transform 0.3s ease-in-out",
     animation: "rotate 5s linear infinite",
     textShadow: "0 0 10px black",

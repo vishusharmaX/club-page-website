@@ -64,6 +64,7 @@ const Footer = () => {
                 style={{
                   fontSize: "1.2rem",
                   marginTop: "0rem",
+                  marginBottom: "2rem",
                   textAlign: "center",
                 }}
               >
@@ -168,6 +169,29 @@ const Footer = () => {
                 </span>{" "}
                 by CyberWarrior Club
               </div>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col className={`${styles.credit}`}>
+            <div
+              style={{
+                fontSize: "1rem",
+                marginTop: "1rem",
+                marginBottom: "0rem",
+                textAlign: "center",
+                color: "#b7b7b7b7",
+                opacity: ".065",
+              }}
+            >
+              And a special Thanks to{" "}
+              <a
+                href="https://github.com/CSYClubIIITK/club-page"
+                className={`${styles.credit}`}
+              >
+                "CsyClub_IIITK"
+              </a>
+              {""}.
             </div>
           </Col>
         </Row>

@@ -53,7 +53,7 @@ const Navbar = () => {
           height: navbarHeight,
         }}
       >
-        <div class="container">
+        <div class={`container ${styles.abscenter}`}>
           <div className="nav-divs">
             <div className={styles.navLogo}>
               <motion.img
@@ -84,7 +84,7 @@ const Navbar = () => {
             className={`collapse navbar-collapse ${styles.navCollapse} ${styles.navigation}`}
             id="navbarSupportedContent"
           >
-            <ul className="mb-2 navbar-nav me-auto mb-lg-0">
+            <ul className={`mb-2 navbar-nav me-2 mb-lg-0 ${styles.mnlist}`}>
               <li className="nav-item">
                 <a
                   className="mx-4 nav-link active fs-4"

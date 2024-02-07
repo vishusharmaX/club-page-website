@@ -17,14 +17,18 @@ const CyberSecurityClub = () => {
           marginBottom: "96px",
         }}
       >
-        <h1 style={{ fontSize: "2rem", marginTop: "2rem" }}>Who are we ?</h1>
+        <h1
+          style={{ fontSize: "2rem", marginTop: "2rem", marginBottom: "4rem" }}
+        >
+          Who are we ?
+        </h1>
         <div style={{ marginBottom: "0px" }}>
           <p
             style={{
               fontSize: "1.2rem",
               lineHeight: "1.2",
               maxWidth: "75ch",
-              letterSpacing: "0.5",
+              letterSpacing: "0.1px",
               marginTop: "1.5rem",
             }}
           >
@@ -40,7 +44,7 @@ const CyberSecurityClub = () => {
             fontSize: "1.2rem",
             marginTop: "2rem",
             lineHeight: "1.2",
-            letterSpacing: "0.5",
+            letterSpacing: "0.1px",
             maxWidth: "75ch",
           }}
         >
