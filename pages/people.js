@@ -100,10 +100,10 @@ const People = () => {
           imageSrc1="/images/medialead.jpg"
           name1="Bhavya Rastogi
           Media and Marketing Lead"
-          // imageSrc2="/images/divyesh.jpeg"
-          // name2="Divyesh"
-          // imageSrc3="/images/jayant1.jpg"
-          // name3="Jayant"
+          imageSrc2="/images/contentlead.jpg"
+          name2="Content Team Lead"
+          imageSrc3="/images/operationlead.jpg"
+          name3="Ayan Operations Lead"
         />
         <br />
         </div>
