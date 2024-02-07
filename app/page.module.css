@@ -202,11 +202,13 @@
   background-color: white;
 }
 
-.navlogo {
-  height: 95px;
-  width: 95px;
+.navLogo {
+  height: 5.9rem;
+  width: 6.6rem;
   position: relative;
-  left: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .navelements {
@@ -242,7 +244,7 @@
     display: flex !important;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     gap: 1rem;
     width: 100%;
   }
@@ -379,21 +381,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.abscenter {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.mnlist {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  margin-right: 0 !important;
-  height: 100%;
 }
 
 .credit {

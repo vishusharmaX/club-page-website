@@ -275,7 +275,6 @@ a {
   .buttonchnge {
     margin-left: 12.5rem;
   }
-  
 }
 
 .glogof {
@@ -283,5 +282,18 @@ a {
 }
 
 .navbar-nav {
-  margin-left: 30rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: end;
+  }
+}
+
+.navbar-toggler-icon {
+  margin-right: 1.5rem;
 }

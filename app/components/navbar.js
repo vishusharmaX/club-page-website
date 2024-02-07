@@ -51,6 +51,9 @@ const Navbar = () => {
         style={{
           fontFamily: "Cascadia Code, monospace",
           height: navbarHeight,
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
         }}
       >
         <div class={`container ${styles.abscenter}`}>
@@ -84,7 +87,7 @@ const Navbar = () => {
             className={`collapse navbar-collapse ${styles.navCollapse} ${styles.navigation}`}
             id="navbarSupportedContent"
           >
-            <ul className={`mb-2 navbar-nav me-2 mb-lg-0 ${styles.mnlist}`}>
+            <ul className={`mb-2 navbar-nav me-2 mb-lg-0`}>
               <li className="nav-item">
                 <a
                   className="mx-4 nav-link active fs-4"
