@@ -122,41 +122,32 @@ const Footer = () => {
                   marginBottom: "2px",
                   display: "flex",
                   flexDirection: "row",
-                  columnGap: "8px",
+                  columnGap: "32px",
                 }}
               >
-                <a href="https://twitter.com/CsyClub_IIITK?t=YyDngl3GXB750SadaoFM_g&s=08">
+                <a href="#">
                   <FaTwitter
                     style={{
-                      marginRight: "8px",
+                      marginRight: "36px",
                       fontSize: "36px",
                       color: "white",
                     }}
                   />
                 </a>
-                <a href="https://instagram.com/csyclub_iiitkottayam?igshid=YmMyMTA2M2Y=">
+                <a href="https://www.instagram.com/vitb_cwc?igsh=MWF3czg0b2M4Y3V0Zw==">
                   <FaInstagram
                     style={{
-                      marginRight: "8px",
+                      marginRight: "32px",
                       fontSize: "36px",
                       color: "white",
                     }}
                   />
                 </a>
-                <a href="https://www.linkedin.com/company/csyclub-iiitkottayam/">
+                <a href="https://www.linkedin.com/company/cyberwarriors-vitb/">
                   <FaLinkedin
                     style={{
-                      marginRight: "8px",
-                      fontSize: "36px",
-                      color: "white",
-                    }}
-                  />
-                </a>
-                <a href="https://discord.gg/qPq6mHZE">
-                  <FaDiscord
-                    style={{
-                      marginRight: "8px",
-                      fontSize: "36px",
+                      marginRight: "0px",
+                      fontSize: "32px",
                       color: "white",
                     }}
                   />
@@ -164,7 +155,17 @@ const Footer = () => {
               </div>
               <div style={madeWithLoveStyle}>
                 Made with{" "}
-                <span style={{ color: "red", fontSize: "27px", width: "20px" }}>
+                <span
+                  style={{
+                    color: "red",
+                    fontSize: "30px",
+                    width: "20px",
+                    height: "20px",
+                    transform: "translate(0%,27%)",
+                    display: "inline-block",
+                    textAlign: "center",
+                  }}
+                >
                   &hearts;
                 </span>{" "}
                 by CyberWarrior Club
