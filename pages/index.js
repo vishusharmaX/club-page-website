@@ -125,7 +125,7 @@ const Home_Page = () => {
             >
               <Typewriter
                 options={{
-                  strings: ["Cyber Warriors Club!"],
+                  strings: ["CyberWarrior Club!"],
                   autoStart: true,
                   loop: true,
                   wrapperClassName: "typewriter-wrapper",
@@ -134,15 +134,19 @@ const Home_Page = () => {
             </div>
             <div
               style={{
-                fontSize: "1.2rem",
-                lineHeight: "1.5",
-                maxWidth: "800px",
+                fontSize: "1rem",
+                lineHeight: "1.05",
                 marginBottom: "2rem",
                 marginRight: "0.5rem",
+                letterSpacing: "0.6px",
+                maxWidth: "95ch",
+                fontWeight: "bold",
               }}
             >
-              Join the Cyber Warrior Club of VIT Bhopal as we explore new
-              cutting edge technology.
+              We aim to gather like minded programmers to exchange knowledge and
+              learn from each other about the latest advancements in the field
+              of cyber. Join us at CWC to expand your skills and stay updated
+              with the ever changing world of cybersecurity.
             </div>
           </div>
         </div>
