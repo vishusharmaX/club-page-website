@@ -255,10 +255,27 @@ a {
   }
 }
 
+
+@media screen and (max-width: 1000px) and (min-width: 425px) {
+  .buttonchnge {
+    margin-left: 20rem;
+  }
+}
+
+@media screen and (max-width: 502px) and (min-width: 315px) {
+  .buttonchnge {
+    margin-left: 12.5rem;
+  }
+}
+
+.glogof {
+  height: 200px;
+}
+
+.navbar-nav {
+  margin-left: 0rem;
+}
 .container {
   display: flex;
   flex-direction: row;
-  column-gap: 45rem;
-}
-
-
+  column-gap: 0rem;}

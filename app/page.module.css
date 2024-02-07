@@ -9,6 +9,7 @@
   left: 0;
   width: 100%;
   z-index: 9999;
+  column-gap: 45rem;
 }
 
 .homeNavbar {
