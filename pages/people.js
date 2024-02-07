@@ -45,7 +45,7 @@ const People = () => {
           style={{ marginTop: "-2rem", color: "rgb(252, 3, 3)" }}
         >
           <div
-            className={`${styles.radioGroup} d-flex flex-wrap justify-content-center`}
+            className={`${styles.radioGroup} d-flex flex-wrap justify-content-center `}
           ></div>
         </div>
         <br />
@@ -81,27 +81,32 @@ const People = () => {
 
         <TextComponent title="Club Leads" />
         <br />
-        {/* <ImageComponent
-          imageSrc1="images/tanuj1.jpg"
-          name1="Tanuj Karteek Allena"
-          imageSrc2="/images/ajay.jpg"
-          name2="Ajay Krishna Narayanasetti"
-          imageSrc3="/images/priyatham.jpg"
-          name3="Priyatham Darisi"
-        /> */}
+        <div className="leads">
+        { <ImageComponent 
+          imageSrc1="/images/designteamlead.jpg"
+          name1="Utkarsh Singh, Design team Lead"
+          imageSrc2="/images/ehteamlead.jpg"
+          name2="Pradyumn Singh Padiyar EH Team Lead"
+          imageSrc3="/images/financelead.jpg"
+          name3="Vedang MaheshwariFinance and sponsorship lead"
+        /> }
+       
         <br />
-
+ </div>
         {/* <TextComponent title="Core Team(2021)" /> */}
         <br />
-        {/* <ImageComponent
-          imageSrc1="/images/akhilesh.jpg"
-          name1="Akhilesh"
-          imageSrc2="/images/divyesh.jpeg"
-          name2="Divyesh"
-          imageSrc3="/images/jayant1.jpg"
-          name3="Jayant"
-        /> */}
+        <div className="leads">
+        <ImageComponent 
+          imageSrc1="/images/medialead.jpg"
+          name1="Bhavya Rastogi
+          Media and Marketing Lead"
+          // imageSrc2="/images/divyesh.jpeg"
+          // name2="Divyesh"
+          // imageSrc3="/images/jayant1.jpg"
+          // name3="Jayant"
+        />
         <br />
+        </div>
         {/* <ImageComponent
           imageSrc1="/images/arnav.jpg"
           name1="Arnav"
