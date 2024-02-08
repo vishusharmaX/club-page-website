@@ -53,30 +53,13 @@ const People = () => {
         <br />
         <TextComponent title="Patrons" />
         <br />
-        {/* <ImageComponent
-          imageSrc1="/images/director.jpg"
-          name1="Dr. Rajiv V Dharaskar"
-          namex1="Director, IIIT Kottayam"
-          imageSrc2="images/registrar1.jpg"
-          name2="Dr. M. Radhakrishnan"
-          namex2="Registar, IIIT Kottayam"
-          imageSrc3="/images/pic.jpg"
-          name3="Prof P. Mohanan"
-          namex3="PIC-Academics, IIIT Kottayam"
-        /> */}
+        <ImageComponent
+          imageSrc1="/images/vicepresident.jpg"
+          name1="Hemal Shingloo"
+          namex1="Vice President , CWC Club"
+        />
         <br />
-        {/* <ImageComponent
-          imageSrc1="/images/ebin1.jpg"
-          name1="Dr. Ebin Deni Raj"
-          namex1="Associate Dean IIIT Kottayam"
-          imageSrc2="/images/panchami1.jpg"
-          name2="Dr. Panchami V"
-          namex2="HoD, Department of Cyber Security IIIT Kottayam"
-          imageSrc3="/images/lavanya.jpg"
-          name3="Dr. Lavanya Settipalli"
-          namex3="Asst. Professor, Department of Cyber Security IIIT Kottayam"
-        /> */}
-        <br />
+      
 
 
         <TextComponent title="Club Leads" />
