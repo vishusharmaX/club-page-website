@@ -45,7 +45,7 @@ const People = () => {
           style={{ marginTop: "-2rem", color: "rgb(252, 3, 3)" }}
         >
           <div
-            className={`${styles.radioGroup} d-flex flex-wrap justify-content-center`}
+            className={`${styles.radioGroup} d-flex flex-wrap justify-content-center `}
           ></div>
         </div>
         <br />
@@ -53,63 +53,51 @@ const People = () => {
         <br />
         <TextComponent title="Patrons" />
         <br />
-        {/* <ImageComponent
-          imageSrc1="/images/director.jpg"
-          name1="Dr. Rajiv V Dharaskar"
-          namex1="Director, IIIT Kottayam"
-          imageSrc2="images/registrar1.jpg"
-          name2="Dr. M. Radhakrishnan"
-          namex2="Registar, IIIT Kottayam"
-          imageSrc3="/images/pic.jpg"
-          name3="Prof P. Mohanan"
-          namex3="PIC-Academics, IIIT Kottayam"
-        /> */}
+        <ImageComponent
+          imageSrc1="/images/vicepresident.jpg"
+          name1="Hemal Shingloo"
+          namex1="Vice President , CWC Club"
+        />
         <br />
-        {/* <ImageComponent
-          imageSrc1="/images/ebin1.jpg"
-          name1="Dr. Ebin Deni Raj"
-          namex1="Associate Dean IIIT Kottayam"
-          imageSrc2="/images/panchami1.jpg"
-          name2="Dr. Panchami V"
-          namex2="HoD, Department of Cyber Security IIIT Kottayam"
-          imageSrc3="/images/lavanya.jpg"
-          name3="Dr. Lavanya Settipalli"
-          namex3="Asst. Professor, Department of Cyber Security IIIT Kottayam"
-        /> */}
-        <br />
+      
 
 
         <TextComponent title="Club Leads" />
         <br />
-        {/* <ImageComponent
-          imageSrc1="images/tanuj1.jpg"
-          name1="Tanuj Karteek Allena"
-          imageSrc2="/images/ajay.jpg"
-          name2="Ajay Krishna Narayanasetti"
-          imageSrc3="/images/priyatham.jpg"
-          name3="Priyatham Darisi"
-        /> */}
+        <div className="leads">
+        { <ImageComponent 
+          imageSrc1="/images/designteamlead.jpg"
+          name1="Utkarsh Singh, Design team Lead"
+          imageSrc2="/images/ehteamlead.jpg"
+          name2="Pradyumn Singh Padiyar EH Team Lead"
+          imageSrc3="/images/financelead.jpg"
+          name3="Vedang MaheshwariFinance and sponsorship lead"
+        /> }
+       
         <br />
-
+ </div>
         {/* <TextComponent title="Core Team(2021)" /> */}
         <br />
-        {/* <ImageComponent
-          imageSrc1="/images/akhilesh.jpg"
-          name1="Akhilesh"
-          imageSrc2="/images/divyesh.jpeg"
-          name2="Divyesh"
-          imageSrc3="/images/jayant1.jpg"
-          name3="Jayant"
-        /> */}
+        <div className="leads">
+        <ImageComponent 
+          imageSrc1="/images/medialead.jpg"
+          name1="Bhavya Rastogi
+          Media and Marketing Lead"
+          imageSrc2="/images/contentlead.jpg"
+          name2="Content Lead"
+          imageSrc3="/images/operationlead.jpg"
+          name3="Ayan Panda Operation Lead"
+        />
         <br />
-        {/* <ImageComponent
-          imageSrc1="/images/arnav.jpg"
-          name1="Arnav"
-          imageSrc2="/images/shivani1.jpg"
-          name2="Shivani"
-          imageSrc3="/images/richa.jpg"
-          name3="Richa"
-        /> */}
+        </div>
+        <ImageComponent
+          imageSrc1="/images/webteam.jpg"
+          name1="Aryan Web Team Lead"
+          imageSrc2="/images/prlead.jpeg.jpg"
+          name2="Ayushi PR lead"
+          // imageSrc3="/images/richa.jpg"
+          // name3="Richa"
+        />
         <br />
 
 
