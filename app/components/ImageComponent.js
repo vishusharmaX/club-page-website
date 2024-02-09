@@ -33,7 +33,7 @@ const ImageComponent = ({
               height={225}
               className={styles.eventclass}
             />
-            <h5 style={{ color: "white" }} align="center" className="styles.social-icon">
+            <h5 style={{ color: "white" }} align="center" className="styles.social-icon" >
               {name1}
               {namex1 && <><br />{namex1}</>}
 
@@ -55,8 +55,10 @@ const ImageComponent = ({
             <img
               src={imageSrc2}
               alt="Media"
+              
               width={225}
               height={225}
+              
               className={styles.eventclass}
             />
             <h5 style={{ color: "white" }} align="center" className="whitetext">
