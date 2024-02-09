@@ -25,7 +25,7 @@ const Contact = () => {
         .contact-details,
         .contact-details p,
         .contact-details h1 {
-          color: white;
+          color: #b7b7b7b7;
         }
       `}</style>
 

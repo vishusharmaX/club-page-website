@@ -138,7 +138,7 @@
   padding: 10px 20px;
   border: 2px solid #5c249b;
   border-radius: 13px;
-  color: #5c249b;
+  color: white;
 }
 
 .radioButton:checked+.radioLabel {
