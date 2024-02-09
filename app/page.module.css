@@ -45,7 +45,10 @@
 }
 
 .navigation ul li a:hover {
-  color: rgb(80, 40, 221) !important;
+  color: rgba(106, 49, 186, 0.9) !important;
+  transform: scale(1.1);
+  background-color: #2c2039;
+  border-radius: 13px;
 }
 
 .navigation ul li a:after {
@@ -60,7 +63,7 @@
   height: 1px;
   content: ".";
   color: transparent;
-  color: rgb(80, 40, 221);
+  color: white;
   /* background:  rgba(0, 0, 0, 0.64); */
   visibility: none;
   opacity: 0;
@@ -75,35 +78,35 @@
 
 @keyframes moveGradient {
   0% {
-    border-image-source: linear-gradient(to right, #3acd6b, black);
+    border-image-source: linear-gradient(to right, #632aaa, rgba(255, 255, 255, 0.4));
   }
 
   25% {
-    border-image-source: linear-gradient(to right, black, #3acd6b);
+    border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0.4), #392551);
   }
 
   50% {
-    border-image-source: linear-gradient(to right, #3acd6b, black);
+    border-image-source: linear-gradient(to right, #632aaa, white);
   }
 
   75% {
-    border-image-source: linear-gradient(to right, black, #3acd6b);
+    border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0.4), #392551);
   }
 
   100% {
-    border-image-source: linear-gradient(to right, #3acd6b, black);
+    border-image-source: linear-gradient(to right, #632aaa, white);
   }
 }
 
 .customButton {
   margin-right: 1rem;
-  background-color: #3acd6b !important;
-  border-color: #3acd6b !important;
+  background-color: #5c249b !important;
+  border-color: #5c249b !important;
   color: black !important;
 }
 
 .whitetext {
-  color: white !important;
+  color: #b7b7b7b7 !important;
 }
 
 .navbar {
@@ -120,7 +123,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: red !important;
+  color: #5c249b !important;
 }
 
 .radioButton {
@@ -133,19 +136,19 @@
   display: inline-block;
   cursor: pointer;
   padding: 10px 20px;
-  border: 2px solid #3acd6b;
-  border-radius: 4px;
-  color: #3acd6b;
+  border: 2px solid #5c249b;
+  border-radius: 13px;
+  color: #5c249b;
 }
 
-.radioButton:checked + .radioLabel {
-  background-color: #3acd6b;
+.radioButton:checked+.radioLabel {
+  background-color: #5c249b;
   color: white;
 }
 
 .heading {
   padding-top: 8rem;
-  color: rgb(252, 3, 3);
+  color: #662eb2;
 }
 
 .logo {
@@ -200,6 +203,7 @@
   width: 1920px;
   height: 95px;
   background-color: white;
+  transition: all .3s;
 }
 
 .navLogo {
@@ -210,6 +214,15 @@
   flex-direction: row;
   align-items: center;
 }
+
+.navLogo:hover {
+  transform: scale(1.1);
+}
+
+.navLogo:hover .glogo {
+  transform: rotate(-5deg);
+}
+
 
 .navelements {
   display: flex;
@@ -240,7 +253,7 @@
     justify-content: space-between;
   }
 
-  .collapse.navbar-collapse {
+  .collapse .navbar-collapse {
     display: flex !important;
     flex-direction: column;
     justify-content: flex-end;
@@ -274,7 +287,7 @@
 
 .footer {
   background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  color: #b7b7b7b7;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -292,13 +305,13 @@
 }
 
 .title {
-  color: white;
+  color: #b7b7b7b7;
   font-size: 25px;
   margin-bottom: 10px;
 }
 
 .icon {
-  color: white;
+  color: #b7b7b7b7;
   margin-right: 5px;
   font-size: 24px;
 }
@@ -310,7 +323,7 @@
 }
 
 .contactInfo p {
-  color: white;
+  color: #b7b7b7b7;
   margin-bottom: 5px;
 }
 
@@ -320,7 +333,7 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 14px;
-  color: white;
+  color: #b7b7b7b7;
   padding-top: 50px;
   margin-top: 20px;
 }
@@ -370,11 +383,16 @@
   align-items: center;
 }
 
+.glogof:hover {
+  transform: translateY(-15px) scale(1.2);
+}
+
 .navlogoC1f {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: all .3s;
 }
 
 .navlogoC2f {

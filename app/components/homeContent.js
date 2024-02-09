@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Row, Col } from "reactstrap";
 
 const CyberSecurityClub = () => {
   return (
@@ -11,25 +12,30 @@ const CyberSecurityClub = () => {
           alignItems: "center",
           minHeight: "100vh",
           textAlign: "center",
-          fontFamily: "Cascadia Code, monospace",
-          color: "white",
+          fontFamily: "sans-serif",
+          color: "#b7b7b7b7",
           padding: "2rem",
           marginBottom: "96px",
         }}
       >
         <h1
-          style={{ fontSize: "2rem", marginTop: "2rem", marginBottom: "4rem" }}
+          style={{
+            fontSize: "3rem",
+            marginTop: "5rem",
+            marginBottom: "3rem",
+            fontWeight: "700",
+          }}
         >
           Who are we ?
         </h1>
-        <div style={{ marginBottom: "0px" }}>
+        <div style={{ marginBottom: "1.05rem" }}>
           <p
             style={{
-              fontSize: "1.2rem",
+              fontSize: "1.7rem",
               lineHeight: "1.2",
               maxWidth: "75ch",
               letterSpacing: "0.1px",
-              marginTop: "1.5rem",
+              fontWeight: "400",
             }}
           >
             A cyber warrior is a well-trained, skilled professional in the
@@ -41,11 +47,12 @@ const CyberSecurityClub = () => {
 
         <div
           style={{
-            fontSize: "1.2rem",
+            fontSize: "1.7rem",
             marginTop: "2rem",
             lineHeight: "1.2",
             letterSpacing: "0.1px",
             maxWidth: "75ch",
+            fontWeight: "400",
           }}
         >
           Join VIT Bhopal's Cyber Warrior Club to explore cutting-edge

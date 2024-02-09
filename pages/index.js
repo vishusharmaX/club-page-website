@@ -56,7 +56,7 @@ const Home_Page = () => {
         dangerouslySetInnerHTML={{
           __html: `
             body {
-              font-family: 'Cascadia Code', 'Courier New', 'monospace';
+              font-family: 'sans-serif';
                  
                 background: '6D36C4';
                 background: linear - gradient(to right bottom, #5c249b, # 5 f27a3, #632aaa, # 662 eb2, #6931ba, # 6531 b1, #6131a8, # 5 d319f, #512d84, # 45296 a, #392551, # 2 c2039);
@@ -76,8 +76,8 @@ const Home_Page = () => {
         <div
           style={{
             display: "flex",
-            fontFamily: "Cascadia Code, monospace",
-            color: "white",
+            fontFamily: "sans-serif",
+            color: "#b7b7b7b7",
             textAlign: "center",
             height: "100vh",
           }}
@@ -118,9 +118,13 @@ const Home_Page = () => {
           >
             <div
               style={{
-                fontSize: "2.5rem",
+                fontSize: "4rem",
                 fontWeight: "bold",
                 marginBottom: "0.5rem",
+                color: "transparent",
+                WebkitBackgroundClip: "text",
+                backgroundImage:
+                  "linear-gradient(to right bottom,#392551,#5c249b,#45296a,#392551,#512d84,#45296a,#2c2039)",
               }}
             >
               <Typewriter
@@ -134,13 +138,13 @@ const Home_Page = () => {
             </div>
             <div
               style={{
-                fontSize: "1rem",
+                fontSize: "1.2rem",
                 lineHeight: "1.05",
                 marginBottom: "2rem",
                 marginRight: "0.5rem",
                 letterSpacing: "0.6px",
-                maxWidth: "95ch",
-                fontWeight: "bold",
+                maxWidth: "75ch",
+                fontWeight: "700",
               }}
             >
               We aim to gather like minded programmers to exchange knowledge and
@@ -154,7 +158,7 @@ const Home_Page = () => {
         <div style={{ marginTop: "-38vh", marginBottom: "20vh" }}>
           <div
             style={{
-              fontFamily: "Cascadia Code, monospace",
+              fontFamily: "sans-serif",
               color: "white",
               textAlign: "center",
               height: "100vh",
@@ -183,6 +187,7 @@ const Home_Page = () => {
                 fontSize: "1.6rem",
                 fontWeight: "bold",
                 marginBottom: "0.5rem",
+                color: "#b7b7b7b7",
               }}
             >
               Cyber Warriors Club

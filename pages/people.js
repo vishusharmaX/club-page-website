@@ -5,7 +5,8 @@ import Script from "next/script";
 import TextComponent from "../app/components/TextComponent";
 import ImageComponent from "../app/components/ImageComponent";
 import Navbar from "../app/components/navbar";
-import Footer from '../app/components/footer';
+import Footer from "../app/components/footer";
+
 const People = () => {
   return (
     <div>
@@ -31,18 +32,18 @@ const People = () => {
         dangerouslySetInnerHTML={{
           __html: `
         body {
-          font-family: 'Cascadia Code', sans-serif;
-          background: rgb(0,0,0);
-          background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 21%, rgba(0,0,0,1) 26%, rgba(5,17,9,1) 32%, rgba(8,28,14,1) 39%, rgba(10,36,18,1) 45%, rgba(14,49,25,1) 54%, rgba(16,58,30,1) 58%, rgba(19,69,35,1) 65%, rgba(23,82,42,1) 71%, rgba(29,102,53,1) 76%, rgba(32,115,60,1) 81%, rgba(36,128,67,1) 87%, rgba(39,137,72,1) 93%, rgba(39,137,72,1) 100%); 
+          font-family: sans-serif;
+          background: #5c249b;
+          background: radial-gradient(circle, #5c249b 0%, #5c249b 10%, #5c249b 15%, #5c249b 21%, #5c249b 26%, #5c249b 32%, #5f27a3 39%, #5f27a3 45%, #632aaa 54%, #632aaa 58%, #6131a8 65%, #6931ba 71%, #6931ba 76%, #512d84 81%, #392551 87%, #2c2039 93%, #2c2039 100%); 
         }
       `,
         }}
       />
       <Navbar position="fixed" />
-      <div className={styles.bg} style={{ fontFamily: 'Cascadia Code, monospace' }}>
+      <div className={styles.bg} style={{ fontFamily: "sans-serif" }}>
         <div
           className={styles.heading}
-          style={{ marginTop: "-2rem", color: "rgb(252, 3, 3)" }}
+          style={{ marginTop: "-2rem", color: "#5c249b" }}
         >
           <div
             className={`${styles.radioGroup} d-flex flex-wrap justify-content-center `}
@@ -51,55 +52,61 @@ const People = () => {
         <br />
         <br />
         <br />
-        <TextComponent title="Patrons" />
+        <TextComponent title="Club Leadership" />
         <br />
         <ImageComponent
           imageSrc1="/images/vicepresident.jpg"
           name1="Hemal Shingloo"
-          namex1="Vice President , CWC Club"
+          namex1="Vice President"
         />
         <br />
-      
 
-
-        <TextComponent title="Club Leads" />
+        <TextComponent title="Department Lead's" />
         <br />
         <div className="leads">
-        { <ImageComponent 
-          imageSrc1="/images/designteamlead.jpg"
-          name1="Utkarsh Singh, Design team Lead"
-          imageSrc2="/images/ehteamlead.jpg"
-          name2="Pradyumn Singh Padiyar EH Team Lead"
-          imageSrc3="/images/financelead.jpg"
-          name3="Vedang MaheshwariFinance and sponsorship lead"
-        /> }
-       
-        <br />
- </div>
+          {
+            <ImageComponent
+              imageSrc1="/images/designteamlead.jpg"
+              name1="Utkarsh Singh"
+              namex1="Design Lead"
+              imageSrc2="/images/ehteamlead.jpg"
+              name2="Pradyumn Singh Padiyar"
+              namex2="Ethical Hacking Lead"
+              imageSrc3="/images/financelead.jpg"
+              name3="Vedang Maheshwari"
+              namex3="Finance and sponsorship Lead"
+            />
+          }
+
+          <br />
+        </div>
         {/* <TextComponent title="Core Team(2021)" /> */}
         <br />
         <div className="leads">
-        <ImageComponent 
-          imageSrc1="/images/medialead.jpg"
-          name1="Bhavya Rastogi
-          Media and Marketing Lead"
-          imageSrc2="/images/contentlead.jpg"
-          name2="Content Lead"
-          imageSrc3="/images/operationlead.jpg"
-          name3="Ayan Panda Operation Lead"
-        />
-        <br />
+          <ImageComponent
+            imageSrc1="/images/medialead.jpg"
+            name1="Bhavya Rastogi"
+            namex1="Media and Marketing Lead"
+            imageSrc2="/images/contentlead.jpg"
+            name2="NAME"
+            namex2="Content Lead"
+            imageSrc3="/images/operationlead.jpg"
+            name3="Ayan Panda, Operation Lead"
+            namex3="Operation's Lead"
+          />
+          <br />
         </div>
         <ImageComponent
           imageSrc1="/images/webteam.jpg"
-          name1="Aryan Web Team Lead"
+          name1="Aryan"
+          namex1="Technical Lead"
           imageSrc2="/images/prlead.jpeg.jpg"
-          name2="Ayushi PR lead"
+          name2="Ayushi,  PR lead"
+          namex2="Design Lead"
           // imageSrc3="/images/richa.jpg"
           // name3="Richa"
         />
         <br />
-
 
         {/* <TextComponent title="Core Team(2022)" /> */}
         <br />
@@ -136,7 +143,7 @@ const People = () => {
           crossorigin="anonymous"
         />
       </div>
-        <Footer />
+      <Footer />
     </div>
   );
 };

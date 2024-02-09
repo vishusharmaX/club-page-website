@@ -49,7 +49,7 @@ const Navbar = () => {
       <nav
         className="navbar navbar-expand-lg fixed-top"
         style={{
-          fontFamily: "Cascadia Code, monospace",
+          fontFamily: "sans-serif",
           height: navbarHeight,
           display: "flex",
           flexDirection: "row",
@@ -66,6 +66,7 @@ const Navbar = () => {
                 height="80"
                 className={`d-inline-block align-text-top ${styles.glogo}`}
               />
+              <p style={{ marginBottom: "0" }}>CyberWarrior Club</p>
             </div>
 
             <div className="buttonchnge">
@@ -93,7 +94,7 @@ const Navbar = () => {
                   className="mx-4 nav-link active fs-4"
                   href="/"
                   style={{
-                    fontFamily: "Cascadia Code, monospace",
+                    fontFamily: "sans-serif",
                     color: "whitesmoke",
                   }}
                 >
@@ -102,11 +103,10 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a
-                  a
                   className="mx-4 nav-link active fs-4"
                   href="/people"
                   style={{
-                    fontFamily: "Cascadia Code, monospace",
+                    fontFamily: "sans-serif",
                     color: "whitesmoke",
                   }}
                 >
@@ -115,11 +115,10 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a
-                  a
-                  className="mx-4 nav-link active fs-4"
+                  className={`mx-4 nav-link active fs-4 ${styles.navitem}`}
                   href="/events"
                   style={{
-                    fontFamily: "Cascadia Code, monospace",
+                    fontFamily: "sans-serif",
                     color: "whitesmoke",
                   }}
                 >
@@ -128,11 +127,10 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a
-                  a
                   className="mx-4 nav-link active fs-4"
                   href="/contact"
                   style={{
-                    fontFamily: "Cascadia Code, monospace",
+                    fontFamily: "sans-serif",
                     color: "whitesmoke",
                   }}
                 >

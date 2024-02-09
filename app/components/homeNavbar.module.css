@@ -1,11 +1,10 @@
 .navbar-container {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    transition: top 0.3s ease-in-out;
-  }
-  
-  .show-navbar {
-    top: 0 !important;
-  }
-  
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: top 0.3s ease-in-out;
+}
+
+.show-navbar {
+  top: 0 !important;
+}

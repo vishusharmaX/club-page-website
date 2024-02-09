@@ -16,9 +16,9 @@ import styles from "../page.module.css";
 
 const Footer = () => {
   const footerStyle = {
-    fontFamily: "Cascadia Code, monospace",
+    fontFamily: "sans-serif",
     backgroundColor: "#2C2039",
-    color: "white",
+    color: "#b7b7b7b7",
     minHeight: "210px",
     padding: "40px 0",
     position: "relative",
@@ -30,6 +30,7 @@ const Footer = () => {
     alignItems: "center",
     textAlign: "center",
     flexGrow: "1",
+    marginBottom: "28px",
   };
 
   const socialStyle = {
@@ -41,8 +42,8 @@ const Footer = () => {
   };
 
   const madeWithLoveStyle = {
-    fontFamily: "Cascadia Code, monospace",
-    color: "white",
+    fontFamily: "sans-serif",
+    color: "#b7b7b7b7",
     textAlign: "center",
     fontSize: "14px",
   };
@@ -76,20 +77,27 @@ const Footer = () => {
             <div style={contactStyle}>
               <h3
                 style={{
-                  color: "white",
+                  color: "#b7b7b7b7",
                   fontSize: "22px",
-                  marginBottom: "28px",
+                  marginBottom: "24px",
                 }}
               >
                 Contact Us
+                <hr></hr>
               </h3>
-              <div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "start",
+                }}
+              >
                 <p>
                   <FaPhone
                     style={{
                       marginRight: "8px",
                       fontSize: "18px",
-                      color: "white",
+                      color: "#b7b7b7b7",
                     }}
                   />{" "}
                   +91 93408 49221
@@ -99,30 +107,35 @@ const Footer = () => {
                     style={{
                       marginRight: "8px",
                       fontSize: "18px",
-                      color: "white",
+                      color: "#b7b7b7b7",
                     }}
                   />{" "}
                   vitbhopalcyberwarriors@gmail.com
                 </p>
               </div>
-              <hr />
             </div>
+            <Col>
+              <div>
+                <hr></hr>
+              </div>
+            </Col>
             <div style={socialStyle}>
               <h3
                 style={{
-                  color: "white",
+                  color: "#b7b7b7b7",
                   fontSize: "22px",
-                  marginBottom: "28px",
+                  marginBottom: "16px",
                 }}
               >
                 Social Media
+                <hr></hr>
               </h3>
               <div
                 style={{
-                  marginBottom: "2px",
+                  marginBottom: "24px",
                   display: "flex",
                   flexDirection: "row",
-                  columnGap: "32px",
+                  columnGap: "53.9px",
                 }}
               >
                 <a href="#">
@@ -130,7 +143,7 @@ const Footer = () => {
                     style={{
                       marginRight: "36px",
                       fontSize: "36px",
-                      color: "white",
+                      color: "#b7b7b7b7",
                     }}
                   />
                 </a>
@@ -139,7 +152,7 @@ const Footer = () => {
                     style={{
                       marginRight: "32px",
                       fontSize: "36px",
-                      color: "white",
+                      color: "#b7b7b7b7",
                     }}
                   />
                 </a>
@@ -148,7 +161,7 @@ const Footer = () => {
                     style={{
                       marginRight: "0px",
                       fontSize: "32px",
-                      color: "white",
+                      color: "#b7b7b7b7",
                     }}
                   />
                 </a>
