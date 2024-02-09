@@ -26,6 +26,7 @@
   border-image-source: linear-gradient(to right, #3acd6b, black);
   border-image-slice: 1;
   animation: moveGradient 8s linear infinite;
+  border-radius: 50%;
 }
 
 .navbar {

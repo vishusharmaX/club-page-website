@@ -90,14 +90,14 @@ const People = () => {
         />
         <br />
         </div>
-        {/* <ImageComponent
-          imageSrc1="/images/arnav.jpg"
-          name1="Arnav"
-          imageSrc2="/images/shivani1.jpg"
-          name2="Shivani"
-          imageSrc3="/images/richa.jpg"
-          name3="Richa"
-        /> */}
+        <ImageComponent
+          imageSrc1="/images/webteam.jpg"
+          name1="Aryan Web Team Lead"
+          imageSrc2="/images/prlead.jpeg.jpg"
+          name2="Ayushi PR lead"
+          // imageSrc3="/images/richa.jpg"
+          // name3="Richa"
+        />
         <br />
 
 
