@@ -201,7 +201,7 @@ const Footer = () => {
                 marginBottom: "0rem",
                 textAlign: "center",
                 color: "#b7b7b7b7",
-                opacity: ".065",
+                opacity: "1",
               }}
             >
               And a special Thanks to{" "}
