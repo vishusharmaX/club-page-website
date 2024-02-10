@@ -16,7 +16,10 @@ const Events = () => {
   };
 
   return (
-    <div class="custom-background" style={{ fontFamily: "sans-serif" }}>
+    <div
+      class="custom-background"
+      style={{ fontFamily: "'Inter','sans-serif'" }}
+    >
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,7 +38,7 @@ const Events = () => {
         dangerouslySetInnerHTML={{
           __html: `
         body {
-            font-family: 'sans-serif';
+            font-family: 'Inter','sans-serif';
             background: rgb(0,0,0);
             background: radial-gradient(circle, #5c249b,#5f27a3,#632aaa,#662eb2,#6931ba,#6531b1, #6131a8,#5d319f, #512d84, #45296a,#392551, #2c2039); 
              

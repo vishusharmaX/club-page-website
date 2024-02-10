@@ -3,7 +3,10 @@ import "./Popup.css";
 
 const Popup = ({ message, onClose }) => {
   return (
-    <div className="popup-container" style={{ fontFamily: "sans-serif" }}>
+    <div
+      className="popup-container"
+      style={{ fontFamily: "'Inter','sans-serif'" }}
+    >
       <div className="popup">
         <p className="popup-message">{message}</p>
         <button className="popup-close-button" onClick={onClose}>

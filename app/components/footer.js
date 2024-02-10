@@ -16,7 +16,7 @@ import styles from "../page.module.css";
 
 const Footer = () => {
   const footerStyle = {
-    fontFamily: "sans-serif",
+    fontFamily: "'Inter','sans-serif'",
     backgroundColor: "#2C2039",
     color: "#b7b7b7b7",
     minHeight: "210px",
@@ -30,7 +30,7 @@ const Footer = () => {
     alignItems: "center",
     textAlign: "center",
     flexGrow: "1",
-    marginBottom: "28px",
+    marginBottom: "-1rem",
   };
 
   const socialStyle = {
@@ -42,7 +42,7 @@ const Footer = () => {
   };
 
   const madeWithLoveStyle = {
-    fontFamily: "sans-serif",
+    fontFamily: "'Inter','sans-serif'",
     color: "#b7b7b7b7",
     textAlign: "center",
     fontSize: "14px",
@@ -65,7 +65,7 @@ const Footer = () => {
                 style={{
                   fontSize: "1.2rem",
                   marginTop: "0rem",
-                  marginBottom: "2rem",
+                  marginBottom: "1.75rem",
                   textAlign: "center",
                 }}
               >
@@ -132,7 +132,7 @@ const Footer = () => {
               </h3>
               <div
                 style={{
-                  marginBottom: "24px",
+                  marginBottom: "16px",
                   display: "flex",
                   flexDirection: "row",
                   columnGap: "53.9px",
@@ -145,6 +145,7 @@ const Footer = () => {
                       fontSize: "36px",
                       color: "#b7b7b7b7",
                     }}
+                    className={styles.fsocial}
                   />
                 </a>
                 <a href="https://www.instagram.com/vitb_cwc?igsh=MWF3czg0b2M4Y3V0Zw==">
@@ -154,6 +155,7 @@ const Footer = () => {
                       fontSize: "36px",
                       color: "#b7b7b7b7",
                     }}
+                    className={styles.fsocial}
                   />
                 </a>
                 <a href="https://www.linkedin.com/company/cyberwarriors-vitb/">
@@ -163,6 +165,7 @@ const Footer = () => {
                       fontSize: "32px",
                       color: "#b7b7b7b7",
                     }}
+                    className={styles.fsocial}
                   />
                 </a>
               </div>
@@ -172,11 +175,14 @@ const Footer = () => {
                   style={{
                     color: "red",
                     fontSize: "30px",
-                    width: "20px",
+                    margin: "2px",
                     height: "20px",
-                    transform: "translate(0%,27%)",
+                    transform: "translate(-26%,25%)",
                     display: "inline-block",
                     textAlign: "center",
+                    animationName: "heartPump",
+                    animationDuration: "1s",
+                    animationIterationCount: "infinite",
                   }}
                 >
                   &hearts;

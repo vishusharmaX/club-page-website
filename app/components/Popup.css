@@ -8,13 +8,13 @@
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(92, 36, 155, 0.5);
 }
 
 .popup {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(92, 36, 155, 0.15);
     border-radius: 10px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 10px rgba(92, 36, 155, 0.2);
     width: 80%;
     max-width: 400px;
     text-align: center;
@@ -28,7 +28,7 @@
 
 .popup-close-button {
     background-color: #5c249b;
-    color: black;
+    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;

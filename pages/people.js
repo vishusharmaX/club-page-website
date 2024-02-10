@@ -66,9 +66,9 @@ const People = () => {
         <div className="leads">
           {
             <ImageComponent
-              imageSrc1="/images/designteamlead.jpg"
-              name1="Utkarsh Singh"
-              namex1="Design Lead"
+              imageSrc1="/images/webteam.jpg"
+              name1="Aryan"
+              namex1="Technical Lead"
               imageSrc2="/images/ehteamlead.jpg"
               name2="Pradyumn Singh Padiyar"
               namex2="Ethical Hacking Lead"
@@ -97,9 +97,8 @@ const People = () => {
           <br />
         </div>
         <ImageComponent
-          imageSrc1="/images/webteam.jpg"
-          name1="Aryan"
-          namex1="Technical Lead"
+          imageSrc1="/images/designteamlead.jpg"
+          name1="Utkarsh Singh"
           imageSrc2="/images/prlead.jpeg.jpg"
           name2="Ayushi,  PR lead"
           namex2="Design Lead"

@@ -12,10 +12,10 @@ const CyberSecurityClub = () => {
           alignItems: "center",
           minHeight: "100vh",
           textAlign: "center",
-          fontFamily: "sans-serif",
-          color: "#b7b7b7b7",
+          fontFamily: "'Inter','sans-serif'",
           padding: "2rem",
           marginBottom: "96px",
+          color: "white",
         }}
       >
         <h1
@@ -24,6 +24,7 @@ const CyberSecurityClub = () => {
             marginTop: "5rem",
             marginBottom: "3rem",
             fontWeight: "700",
+            color: "white",
           }}
         >
           Who are we ?
@@ -36,6 +37,7 @@ const CyberSecurityClub = () => {
               maxWidth: "75ch",
               letterSpacing: "0.1px",
               fontWeight: "400",
+              color: "white",
             }}
           >
             A cyber warrior is a well-trained, skilled professional in the
@@ -53,6 +55,7 @@ const CyberSecurityClub = () => {
             letterSpacing: "0.1px",
             maxWidth: "75ch",
             fontWeight: "400",
+            color: "white",
           }}
         >
           Join VIT Bhopal's Cyber Warrior Club to explore cutting-edge

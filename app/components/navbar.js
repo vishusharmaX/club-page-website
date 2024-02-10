@@ -49,7 +49,7 @@ const Navbar = () => {
       <nav
         className="navbar navbar-expand-lg fixed-top"
         style={{
-          fontFamily: "sans-serif",
+          fontFamily: "'Inter','sans-serif'",
           height: navbarHeight,
           display: "flex",
           flexDirection: "row",
@@ -94,7 +94,7 @@ const Navbar = () => {
                   className="mx-4 nav-link active fs-4"
                   href="/"
                   style={{
-                    fontFamily: "sans-serif",
+                    fontFamily: "'Inter','sans-serif'",
                     color: "whitesmoke",
                   }}
                 >
@@ -106,7 +106,7 @@ const Navbar = () => {
                   className="mx-4 nav-link active fs-4"
                   href="/people"
                   style={{
-                    fontFamily: "sans-serif",
+                    fontFamily: "'Inter','sans-serif'",
                     color: "whitesmoke",
                   }}
                 >
@@ -118,7 +118,7 @@ const Navbar = () => {
                   className={`mx-4 nav-link active fs-4 ${styles.navitem}`}
                   href="/events"
                   style={{
-                    fontFamily: "sans-serif",
+                    fontFamily: "'Inter','sans-serif'",
                     color: "whitesmoke",
                   }}
                 >
@@ -130,7 +130,7 @@ const Navbar = () => {
                   className="mx-4 nav-link active fs-4"
                   href="/contact"
                   style={{
-                    fontFamily: "sans-serif",
+                    fontFamily: "'Inter','sans-serif'",
                     color: "whitesmoke",
                   }}
                 >

@@ -15,7 +15,7 @@ const Contact = () => {
       <div
         class="custom-background"
         style={{
-          fontFamily: "sans-serif",
+          fontFamily: "'Inter','sans-serif'",
         }}
       >
         <Head>
@@ -38,7 +38,7 @@ const Contact = () => {
           dangerouslySetInnerHTML={{
             __html: `
         body {
-            font-family: 'sans-serif';
+            font-family: 'Inter','sans-serif';
             background: '6D36C4';
             background: linear - gradient(to right bottom, #5c249b, # 5f27a3, #632aaa, # 662eb2, #6931ba, # 6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039);
         }`,

@@ -15,7 +15,8 @@ const Contact = () => {
 
       <style jsx global>{`
         body {
-          font-family: "sans-serif";
+          font-family: "'Inter','sans-serif'";
+          font-weight: "600";
           background-image: url("background.png");
           background-size: cover;
           background-repeat: no-repeat;
@@ -25,7 +26,8 @@ const Contact = () => {
         .contact-details,
         .contact-details p,
         .contact-details h1 {
-          color: #b7b7b7b7;
+          color: white;
+          font-weight: "500";
         }
       `}</style>
 

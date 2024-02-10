@@ -6,6 +6,7 @@ import Footer from "../app/components/footer";
 import Head from "next/head";
 import Typewriter from "typewriter-effect";
 import { motion, AnimatePresence } from "framer-motion";
+import Featured from "../app/components/Featured";
 
 const Home_Page = () => {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -56,7 +57,7 @@ const Home_Page = () => {
         dangerouslySetInnerHTML={{
           __html: `
             body {
-              font-family: 'sans-serif';
+              font-family: 'Inter', 'sans-serif';
                  
                 background: '6D36C4';
                 background: linear - gradient(to right bottom, #5c249b, # 5 f27a3, #632aaa, # 662 eb2, #6931ba, # 6531 b1, #6131a8, # 5 d319f, #512d84, # 45296 a, #392551, # 2 c2039);
@@ -76,8 +77,8 @@ const Home_Page = () => {
         <div
           style={{
             display: "flex",
-            fontFamily: "sans-serif",
-            color: "#b7b7b7b7",
+            fontFamily: "'Inter','sans-serif'",
+            color: "white",
             textAlign: "center",
             height: "100vh",
           }}
@@ -100,7 +101,7 @@ const Home_Page = () => {
                   width: "120%",
                   height: "120%",
                   objectFit: "contain",
-                  color: "black",
+                  color: "white",
                 }}
               />
             </div>
@@ -124,7 +125,7 @@ const Home_Page = () => {
                 color: "transparent",
                 WebkitBackgroundClip: "text",
                 backgroundImage:
-                  "linear-gradient(to right bottom,#392551,#5c249b,#45296a,#392551,#512d84,#45296a,#2c2039)",
+                  "linear-gradient(to right bottom,#5c249b 0%,#512d84 25%,#45296a 50%,#2c2039 75%)",
               }}
             >
               <Typewriter
@@ -158,8 +159,8 @@ const Home_Page = () => {
         <div style={{ marginTop: "-38vh", marginBottom: "20vh" }}>
           <div
             style={{
-              fontFamily: "sans-serif",
-              color: "white",
+              fontFamily: "'Inter','sans-serif'",
+
               textAlign: "center",
               height: "100vh",
               display: "flex",
@@ -187,7 +188,6 @@ const Home_Page = () => {
                 fontSize: "1.6rem",
                 fontWeight: "bold",
                 marginBottom: "0.5rem",
-                color: "#b7b7b7b7",
               }}
             >
               Cyber Warriors Club
@@ -195,6 +195,7 @@ const Home_Page = () => {
           </div>
         </div>
       )}
+      <Featured />
       <CyberSecurityClub />
       <Footer />
     </>
