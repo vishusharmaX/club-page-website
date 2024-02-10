@@ -125,7 +125,7 @@ const Home_Page = () => {
                 color: "transparent",
                 WebkitBackgroundClip: "text",
                 backgroundImage:
-                  "linear-gradient(to right bottom,#5c249b 0%,#512d84 25%,#45296a 50%,#2c2039 75%)",
+                  "linear-gradient(to right bottom,#2c2039 0%,#2c2039 25%,#2c2039 50%,#2c2039 75%)",
               }}
             >
               <Typewriter
