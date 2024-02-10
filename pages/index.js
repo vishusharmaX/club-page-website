@@ -188,6 +188,7 @@ const Home_Page = () => {
                 fontSize: "1.6rem",
                 fontWeight: "bold",
                 marginBottom: "0.5rem",
+                color: "white",
               }}
             >
               Cyber Warriors Club
